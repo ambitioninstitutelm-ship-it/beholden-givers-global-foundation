@@ -19,16 +19,19 @@ nav a:hover{color:#e09f3e}
 section{padding:55px 7%}
 .title{text-align:center;color:#116466;font-size:30px;margin-bottom:30px}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px}
-.card{padding:25px;border-radius:15px;background:#f6faf9;box-shadow:0 5px 18px rgba(0,0,0,0.07)}
+.card{padding:25px;border-radius:15px;background:#f6faf9;box-shadow:0 5px 18px #00000012}
 .card h3{color:#116466;margin-bottom:8px}
 .about{max-width:900px;margin:auto;text-align:center;font-size:18px}
 .contact{background:#0b3d3e;color:#fff;text-align:center}
 .contact .title{color:#fff}
 footer{text-align:center;padding:20px;background:#082f30;color:#fff}
 
+.profile-img{width:150px;height:150px;object-fit:cover;border-radius:50%;border:5px solid #e09f3e;box-shadow:0 5px 18px #0002;margin-bottom:12px}
+.site-logo{width:78px;height:78px;object-fit:contain;vertical-align:middle;margin-right:12px}
 .brand-wrap{display:flex;align-items:center}
-.hero-people{display:flex;justify-content:center;gap:30px;flex-wrap:wrap;margin:25px 0}
-.hero-person img{width:130px;height:130px;object-fit:cover;border-radius:50%;border:4px solid #e09f3e;box-shadow:0 5px 15px rgba(0,0,0,0.15)}
+.hero-people{display:flex;justify-content:center;gap:35px;flex-wrap:wrap;margin:28px 0}
+.hero-person img{width:135px;height:135px;object-fit:cover;border-radius:50%;border:5px solid #e09f3e;box-shadow:0 6px 20px #0002}
+.hero-person strong{display:block;margin-top:8px;color:#0b5556}
 
 @media(max-width:700px){
   header{display:block;text-align:center}
@@ -36,6 +39,8 @@ footer{text-align:center;padding:20px;background:#082f30;color:#fff}
   nav a{margin:0 7px;font-size:13px}
   .hero h1{font-size:31px}
   .hero p{font-size:17px}
+  .site-logo{width:58px;height:58px}
+  .profile-img{width:120px;height:120px}
   .hero-person img{width:110px;height:110px}
 }
 </style>
@@ -43,32 +48,31 @@ footer{text-align:center;padding:20px;background:#082f30;color:#fff}
 <body>
 
 <header>
-  <div class="logo brand-wrap">
-    <span>Beholden Givers Global Foundation</span>
-  </div>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#documents">Documents</a>
-    <a href="#donation">Donate</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<div class="logo brand-wrap">
+  <span>Beholden Givers Global Foundation</span>
+</div>
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#documents">Documents</a>
+  <a href="#donation">Donate</a>
+  <a href="#contact">Contact</a>
+</nav>
 </header>
 
 <section class="hero">
   <h1>Empowering Communities Globally</h1>
   <p>Hum samaj ke behtar vikas, shiksha, aur sahayta ke liye kaam kar rahe hain.</p>
   
-  <!-- Photos Section -->
   <div class="hero-people">
     <div class="hero-person">
-      <img src="IMG-20261007-WA5836.jpg" alt="Foundation Photo 1">
+      <img src="IMG-20261007-WA5836.jpg" alt="Photo 1">
     </div>
     <div class="hero-person">
-      <img src="IMG-20261007-WA8355.jpg" alt="Foundation Photo 2">
+      <img src="IMG-20261007-WA8355.jpg" alt="Photo 2">
     </div>
     <div class="hero-person">
-      <img src="IMG-20261008-WA9664.jpg" alt="Foundation Photo 3">
+      <img src="IMG-20261008-WA9664.jpg" alt="Photo 3">
     </div>
   </div>
 
@@ -134,7 +138,7 @@ footer{text-align:center;padding:20px;background:#082f30;color:#fff}
   <h2 class="title">Yogdaan Karein (Donate Now)</h2>
   <div class="about" style="max-width:700px;">
     <p>Aapka chhota sa sahyog kisi ke jeevan mein bada badlaav la sakta hai. Aap niche diye gaye bank details ke zariye sahayta kar sakte hain:</p>
-    <div style="margin-top:25px; padding:25px; background:#fff; border-radius:15px; box-shadow:0 5px 18px rgba(0,0,0,0.07); text-align:left;">
+    <div style="margin-top:25px; padding:25px; background:#fff; border-radius:15px; box-shadow:0 5px 18px #00000012; text-align:left;">
       <h3 style="color:#116466; margin-bottom:12px;">Bank Transfer Details</h3>
       <p style="margin-bottom: 8px;"><strong>Account Name:</strong> Beholden Givers Global Foundation</p>
       <p style="margin-bottom: 8px;"><strong>Account Number:</strong> XXXX-XXXX-XXXX</p>
